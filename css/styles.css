@@ -6,8 +6,28 @@
 body{
     background-image: linear-gradient(to right, #fff7ad, #ffa9f9);
 }
+a{
+    text-decoration: none;
+    color:#9b988a;
+}
+.btn{
+    background-color: #723bcf;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #8d63d6;
+}
 .header{
     display: flex;
+    align-items: center;
+    gap:40px;
+}
+.header img{
+    width: 150px;
+    margin: 40px 20px 30px 50px;
 }
 .footer{
     display: flex;
