@@ -28,6 +28,13 @@ a{
 .header img{
     width: 150px;
     margin: 40px 20px 30px 50px;
+
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
 }
 .footer{
     display: flex;
