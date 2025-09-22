@@ -9,6 +9,10 @@ body{
 a{
     text-decoration: none;
     color:#9b988a;
+    margin-right: 30px;
+}
+a:hover{
+    color:black;
 }
 .btn{
     background-color: #723bcf;
@@ -19,15 +23,17 @@ a{
 }
 .btn:hover{
     background-color: #8d63d6;
+    color:#ffffff;
 }
 .header{
     display: flex;
-    align-items: center;
-    gap:40px;
+    padding: 10px 20px;
+    align-items:center;
+    justify-content: space-between;
 }
 .header img{
     width: 150px;
-    margin: 40px 20px 30px 50px;
+    margin: 40px 20px 30px 30px;
 
 }
 .nav{
@@ -35,6 +41,53 @@ a{
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
+}
+.hero{
+    display: flex;
+    flex-direction: column; 
+    padding: 4px 2px;
+    flex-grow: 1;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.hero h1{
+    font-size: 50px;
+    color: #2e2e2d;
+    font-weight: 700;
+    color: var(--text-dark);
+    line-height: 1.1;
+    margin: 0;
+}
+.hero span{
+    font-size: 36px;
+    color: #6c33cf;
+    font-weight: 700 ;
+}
+.hero p{
+    color:#9b988a;
+}
+.reg-btn{
+    background-color: #723bcf;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none; 
+    font-weight: bold;   
+}
+.reg-btn:hover{
+    color: #ffffff;
+    background-color: #8d63d6;
+}
+.hero img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-right: 50px;
 }
 .footer{
     display: flex;
